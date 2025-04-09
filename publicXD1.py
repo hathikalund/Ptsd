@@ -121,7 +121,7 @@ def handle_attack(message):
         channels_list = "\n".join([f"➡ {ch}" for ch in REQUIRED_CHANNELS])
         bot.reply_to(message, 
                    f"❌ You must join both channels before using this bot:\n"
-                   f"➡️ [Join Channel 1](https://t.me/ritikxyz09)\n",  parse_mode="Markdown", disable_web_page_preview=True
+                   f"➡️ [Join Channel 1](https://t.me/Ritikxyz9)\n",  parse_mode="Markdown", disable_web_page_preview=True
                 )
         return
     
